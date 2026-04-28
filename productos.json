@@ -1,0 +1,58 @@
+[
+  {
+    "id": 1,
+    "nombre": "BMW X7.",
+    "descripcion": "X7 M60i (Automático) | $2,489,900 MXN",
+    "imagen": "https://prod.cosy.bmw.cloud/bmwweb/cosySec?COSY-EU-100-7331ukJEouG9Www1pf4oXQtUDCvSpKM4eC9iwWNRduIwQ081ZmQGwgZ3swTqZXsjoKNHOkvou%25KXKy7HSfWQWTe%25V1PaPoyfNEbnb8q10s9Oa0JE4riInMsscZwBOmdrxRteIcOZ857MBvIRUgChe2C5GvloVqjgp2XHNrDv6jQ%250Zk2YDaf4R6jmqn1cdADyLOEx2UqTJIs8efL3uBrq0IJdSeZLEBuzVMRJsdSkNh5uqyVA0ogSLwNF4HvVJA0Kc%252NpQ4Wxfj0LCcP81D4JixbUEqctp89GsLxgIUiprJ8vDGw6ZuU5pptYRSGTu67m5VptRYCygN6WYmlTv0JACyX324uO2TQdjcSIW3azDxVBadnkq8NetzOALU0MukIFJG4d5ABKup9maFeWS6iHdKMPVYw%25gWhbNmtf2Po90y7DBbHi4TCsA9%25wc3lC8iftxdXgDw178zQBvtECUkae17slGAvKMCrXpFXO9lZQ6KQbqXRaYWao1Q5nmPnqNagOybOiunvIT9IwpO2B3iBeVIjedweMiBDMztLaeeqhk7cIMMLoACxtOhJPvOjhwmzqIb%25snvzqUxEw8%25P6rbP7sYFuMw4hBDF86Q0l6JBqR%25bH8wsFpRBYdNaMz65v2Z8XZDKoOILB9LaCJxJdoSWZ35uMwbXrGv6OgHqvZ2aKBfXRTne0IqQmSOPLiaagd%25kcWExHWpbl8FO2kdGmT35sgXA9bQa10trW3%255W94GZIHuLWWFtQ",
+    "precio": 2489900
+  },
+  {
+    "id": 2,
+    "nombre": "GLE Coupé",
+    "descripcion": "Gle Coupe color negro | $1,989,000 MXN",
+    "imagen": "https://vehicle-images.carscommerce.inc/ef2c-11001059/4JGFD8KB0TB540139/45295d7b95f9e43b5e4f4624eccaf382.jpg",
+    "precio": 1989000
+  },
+  {
+    "id": 3,
+    "nombre": "Lamborghini Urus",
+    "descripcion": "Urus SE 2025 | $6,000,000 MXN",
+    "imagen": "https://i.blogs.es/c66b6d/lamborghini-urus_s-2023-1600-03/450_1000.jpg",
+    "precio": 6000000
+  },
+  {
+    "id": 4,
+    "nombre": "BMW X6.",
+    "descripcion": "X6 M6 | $3,689,900 MXN",
+    "imagen": "https://www.cocheglobal.com/uploads/s1/91/91/37/3/bmw-x6.jpeg",
+    "precio": 3689900
+  },
+  {
+    "id": 5,
+    "nombre": "Ferrari SF90 STRADALE",
+    "descripcion": "Limited edition 2019| $344,156,210 MXN",
+    "imagen": "https://www.amalgamcollection.com/cdn/shop/files/Wideedit_44fe4a82-c08b-449e-87e3-5380099e6329_2000x850_crop_center.jpg?v=1706017250",
+    "precio": 344156210
+  },
+  {
+    "id": 6,
+    "nombre": "Alfa Romeo Giulia GTA",
+    "descripcion": "V6 biturbo | $4,053,620 MXN",
+    "imagen": "https://i.blogs.es/81c8c6/alfa-romeo-giulia-gta-portada/840_560.jpg",
+    "precio": 4053620
+  },
+  {
+    "id": 7,
+    "nombre": "Porsche 911",
+    "descripcion": "Hibrido 2025 | $2,101,513 MXN",
+    "imagen": "https://hips.hearstapps.com/hmg-prod/images/img-3-6655e9b91dcf6.jpg?crop=1.00xw:0.893xh;0,0.107xh&resize=1200:*",
+    "precio": 2101513
+  },
+  {
+    "id": 8,
+    "nombre": "Maserati Ghibli Ribelle",
+    "descripcion": "Turbodiésel V6 | $1,875,564 MXN",
+    "imagen": "https://hips.hearstapps.com/es.h-cdn.co/cades/contenidos/55647/new-ghibli-ribelle.jpg?crop=0.888888888888889xw:1xh;center,top&resize=1200:*",
+    "precio": 1875564
+  }
+]

@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Admin - Vortex</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
+  </head>
+  <body class="bg-light">
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark mb-4">
+      <div class="container">
+        <a class="navbar-brand" href="index.html"
+          >Panel Administrador - Vortex</a
+        >
+        <div>
+          <a href="index.html" class="btn btn-outline-light btn-sm"
+            >Ver Tienda</a
+          >
+        </div>
+      </div>
+    </nav>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card shadow-sm mb-4">
+            <div class="card-header bg-primary text-white">
+              <h5 class="card-title mb-0" id="titulo-formulario">
+                Agregar Producto
+              </h5>
+            </div>
+            <div class="card-body">
+              <form id="form-producto">
+                <input type="hidden" id="carro-id" />
+
+                <div class="mb-3">
+                  <label class="form-label">Nombre del Auto</label>
+                  <input
+                    type="text"
+                    id="nombre"
+                    class="form-control"
+                    required
+                  />
+                </div>
+
+                <div class="mb-3">
+                  <label class="form-label">Descripción corta</label>
+                  <input type="text" id="desc" class="form-control" required />
+                </div>
+
+                <div class="mb-3">
+                  <label class="form-label">Precio (MXN)</label>
+                  <input
+                    type="number"
+                    id="precio"
+                    class="form-control"
+                    required
+                  />
+                </div>
+
+                <div class="mb-3">
+                  <label class="form-label">URL de Imagen</label>
+                  <input
+                    type="text"
+                    id="imagen"
+                    class="form-control"
+                    required
+                  />
+                </div>
+
+                <div class="d-grid gap-2">
+                  <button type="submit" class="btn btn-success">
+                    Guardar Producto
+                  </button>
+                  <button
+                    type="button"
+                    class="btn btn-secondary d-none"
+                    id="btn-cancelar"
+                  >
+                    Cancelar Edición
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-8">
+          <div class="card shadow-sm">
+            <div class="card-body">
+              <div class="table-responsive">
+                <table class="table table-hover align-middle">
+                  <thead class="table-dark">
+                    <tr>
+                      <th>ID</th>
+                      <th>Imagen</th>
+                      <th>Nombre</th>
+                      <th>Precio</th>
+                      <th>Acciones</th>
+                    </tr>
+                  </thead>
+                  <tbody id="tabla-productos"></tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="admin.js"></script>
+  </body>
+</html>
